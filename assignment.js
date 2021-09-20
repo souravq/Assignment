@@ -1,5 +1,5 @@
 
-
+// Kilometer To Meter
  function kilometerToMeter(km){
 	if(km>0){
 	   var meter=km*1000;
@@ -15,7 +15,7 @@ var meter=kilometerToMeter(5);
 
 
 
-
+// Budget Calculator
  function budgetCalculator(watch,phone,laptop) {
 
 	var totalPrice=0;
@@ -41,7 +41,7 @@ var totalBudget=budgetCalculator(1,2,3);
 
 
 
-
+// Hotel Cost
 
 function hotelCost(day) {
 	if(day<=0){
@@ -61,6 +61,7 @@ function hotelCost(day) {
 //console.log(totalCost);
 
 
+// Mega friends
 
 function megaFriend(friends) {
 	var max=friends[0].length;
